@@ -1,0 +1,27 @@
+# robots.txt for Jiangsu Yanggang Electrical Equipment Co., Ltd.
+# Created: 2026-05-20
+# Website: https://ygdqjt.github.io/
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Sitemap location (helps search engines find all pages)
+Sitemap: https://ygdqjt.github.io/sitemap.xml
+
+# Crawl-delay (optional - be nice to servers)
+# Crawl-delay: 1
+
+# Disallow admin or private pages (example - uncomment if needed)
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /tmp/
+
+# Allow specific bots (optional)
+# User-agent: Googlebot
+# Allow: /
+
+# User-agent: Bingbot
+# Allow: /
+
+# End of robots.txt
