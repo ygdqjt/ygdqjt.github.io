@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cable Tray Case Study - Facebook Cover</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { 
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.container {
+  width: 1200px;
+  max-width: 100%;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+.top {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  padding: 50px 60px;
+  color: white;
+  position: relative;
+}
+.badge {
+  background: #f39c12;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.top h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+.top .subtitle {
+  font-size: 24px;
+  opacity: 0.9;
+}
+.content {
+  padding: 50px 60px;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 40px;
+}
+.stat {
+  text-align: center;
+  padding: 25px;
+  background: #f8f9fa;
+  border-radius: 15px;
+}
+.stat .number {
+  font-size: 42px;
+  font-weight: bold;
+  color: #1e3c72;
+  display: block;
+}
+.stat .label {
+  font-size: 16px;
+  color: #666;
+  margin-top: 5px;
+}
+.highlight {
+  background: linear-gradient(135deg, #fef9e7, #fdebd0);
+  border-left: 5px solid #f39c12;
+  padding: 25px 30px;
+  border-radius: 0 15px 15px 0;
+  margin-bottom: 30px;
+}
+.highlight .quote {
+  font-size: 20px;
+  color: #333;
+  font-style: italic;
+  line-height: 1.6;
+}
+.offer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.item {
+  text-align: center;
+  padding: 20px;
+}
+.item .icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.item .text {
+  font-size: 16px;
+  color: #333;
+}
+.footer {
+  background: #2c3e50;
+  color: white;
+  padding: 30px 60px;
+  text-align: center;
+}
+.footer .company {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.footer .contact {
+  font-size: 16px;
+  opacity: 0.8;
+}
+@media (max-width: 768px) {
+  .top h1 { font-size: 32px; }
+  .stats, .offer { grid-template-columns: 1fr; }
+  .top, .content, .footer { padding: 30px; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="top">
+    <span class="badge">🏗️ PROJECT SPOTLIGHT</span>
+    <h1>Commercial Complex<br>Wiring Solution</h1>
+    <p class="subtitle">Jiangsu Yanggang Electric</p>
+  </div>
+  <div class="content">
+    <div class="stats">
+      <div class="stat">
+        <span class="number">200m</span>
+        <span class="label">Cable Tray Installed</span>
+      </div>
+      <div class="stat">
+        <span class="number">Power+Fiber</span>
+        <span class="label">Cable Types</span>
+      </div>
+      <div class="stat">
+        <span class="number">5 Days</span>
+        <span class="label">Ahead of Schedule</span>
+      </div>
+    </div>
+    <div class="highlight">
+      <p class="quote">"Excellent quality, fast installation! Will definitely cooperate again."</p>
+    </div>
+    <div class="offer">
+      <div class="item">
+        <div class="icon">🔧</div>
+        <div class="text">Free Technical Design</div>
+      </div>
+      <div class="item">
+        <div class="icon">📏</div>
+        <div class="text">Custom Cutting</div>
+      </div>
+      <div class="item">
+        <div class="icon">🚚</div>
+        <div class="text">Fast Shipping</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p class="company">Jiangsu Yanggang Electric | 10+ Years Expert</p>
+    <p class="contact">📩 info@cnygjt.com | 🌐 www.cnygjt.com</p>
+  </div>
+</div>
+</body>
+</html>
