@@ -36,24 +36,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://ygdqjt.github.io/blog/cable-tray-complete-guide.html</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://ygdqjt.github.io/blog/jdg-conduit-pipe-selection-guide.html</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://ygdqjt.github.io/blog/cable-tray-vs-conduit-which-to-choose.html</loc>
-    <lastmod>2026-05-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
+
   <url>
     <loc>https://ygdqjt.github.io/blog/safety-standards-cable-tray.html</loc>
     <lastmod>2026-05-21</lastmod>
