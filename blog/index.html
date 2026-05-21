@@ -3,272 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog | Jiangsu Yanggang Electrical Equipment</title>
-    <meta name="description" content="Technical articles about cable tray, conduit pipe, electrical installation guide. Expert tips from Jiangsu Yanggang.">
-    <meta name="keywords" content="cable tray blog, conduit pipe guide, electrical installation, cable management tips">
-    
-    <!-- Open Graph -->
-    <meta property="og:title" content="Blog | Jiangsu Yanggang Electrical Equipment">
-    <meta property="og:description" content="Technical articles about cable tray, conduit pipe, electrical installation guide.">
+    <title>Blog - Jiangsu Yanggang Electrical Equipment Co., Ltd.</title>
+    <meta name="description" content="Expert insights on cable tray systems, electrical conduit, installation guides, and industry standards from Jiangsu Yanggang's technical team. ISO 9001 certified manufacturer.">
+    <link rel="canonical" href="https://ygdqjt.github.io/blog/">
+    <meta property="og:title" content="Jiangsu Yanggang Blog - Cable Tray & Conduit Expert Insights">
+    <meta property="og:description" content="Technical articles, installation guides, and industry standards for cable management solutions.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ygdqjt.github.io/blog/">
-    
-    <!-- Styles -->
+    <meta property="og:image" content="https://ygdqjt.github.io/images/og-image.jpg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&display=swap"></noscript>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
-            line-height: 1.8;
-            color: #333;
-            background: #f5f5f5;
-        }
-        
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        header {
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-            color: white;
-            padding: 60px 20px;
-            text-align: center;
-            margin: -20px -20px 40px -20px;
-        }
-        
-        header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        
-        header p {
-            font-size: 1.2em;
-            opacity: 0.9;
-        }
-        
-        .blog-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 30px;
-            margin: 40px 0;
-        }
-        
-        .blog-card {
-            background: white;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        
-        .blog-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-        }
-        
-        .card-image {
-            height: 200px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3em;
-            color: white;
-        }
-        
-        .card-content {
-            padding: 25px;
-        }
-        
-        .card-content h3 {
-            color: #1e3c72;
-            margin-bottom: 10px;
-            font-size: 1.3em;
-        }
-        
-        .card-content h3 a {
-            color: inherit;
-            text-decoration: none;
-        }
-        
-        .card-content h3 a:hover {
-            text-decoration: underline;
-        }
-        
-        .card-meta {
-            color: #666;
-            font-size: 0.9em;
-            margin-bottom: 15px;
-        }
-        
-        .card-meta span {
-            margin-right: 15px;
-        }
-        
-        .card-excerpt {
-            color: #555;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-        
-        .read-more {
-            display: inline-block;
-            background: #1e3c72;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: background 0.3s;
-        }
-        
-        .read-more:hover {
-            background: #2a5298;
-        }
-        
-        .cta-box {
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-            color: white;
-            padding: 40px;
-            margin: 60px -20px;
-            text-align: center;
-            border-radius: 8px;
-        }
-        
-        .cta-box h3 {
-            color: white;
-            margin-bottom: 20px;
-            font-size: 1.8em;
-        }
-        
-        .cta-button {
-            display: inline-block;
-            background: white;
-            color: #f5576c;
-            padding: 15px 40px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: bold;
-            margin-top: 20px;
-            transition: all 0.3s;
-        }
-        
-        .cta-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-        }
-        
-        footer {
-            text-align: center;
-            padding: 40px 20px;
-            color: #666;
-            margin-top: 60px;
-            border-top: 1px solid #e0e0e0;
-        }
-        
-        footer a {
-            color: #1e3c72;
-            text-decoration: none;
-        }
-        
-        footer a:hover {
-            text-decoration: underline;
-        }
-        
+        :root { --primary: #1e3c72; --secondary: #2a5298; --accent: #f39c12; --light: #f8f9fa; --text: #333; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif; line-height: 1.7; color: var(--text); }
+        header { background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%); color: white; padding: 1rem 0; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        nav { max-width: 1200px; margin: 0 auto; padding: 0 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: bold; text-decoration: none; color: white; }
+        .logo span { color: var(--accent); }
+        .nav-links { display: flex; list-style: none; gap: 2rem; }
+        .nav-links a { color: white; text-decoration: none; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--accent); }
+        .menu-toggle { display: none; background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center; padding: 5rem 2rem; }
+        .hero h1 { font-size: 2.8rem; margin-bottom: 1rem; }
+        .hero p { font-size: 1.2rem; opacity: 0.9; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+        .section { padding: 4rem 0; }
+        .section h2 { text-align: center; font-size: 2.2rem; color: #2c3e50; margin-bottom: 3rem; }
+        .blog-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; }
+        .blog-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.08); transition: transform 0.3s, box-shadow 0.3s; border: 1px solid #f0f0f0; }
+        .blog-card:hover { transform: translateY(-6px); box-shadow: 0 15px 35px rgba(0,0,0,0.15); }
+        .blog-visual { height: 160px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2.5rem; font-weight: 700; text-align: center; padding: 1rem; }
+        .blog-visual.blue { background: linear-gradient(135deg, #1e3c72, #2a5298); }
+        .blog-visual.teal { background: linear-gradient(135deg, #2193b0, #6dd5ed); }
+        .blog-visual.purple { background: linear-gradient(135deg, #667eea, #764ba2); }
+        .blog-visual.orange { background: linear-gradient(135deg, #f39c12, #f5576c); }
+        .blog-visual.green { background: linear-gradient(135deg, #11998e, #38ef7d); }
+        .blog-body { padding: 1.8rem; }
+        .blog-body .meta { color: #999; font-size: 0.85rem; margin-bottom: 0.7rem; display: flex; gap: 1rem; }
+        .blog-body h3 { font-size: 1.2rem; color: #2c3e50; margin-bottom: 0.7rem; line-height: 1.4; }
+        .blog-body h3 a { color: inherit; text-decoration: none; }
+        .blog-body h3 a:hover { color: var(--primary); }
+        .blog-body p { color: #666; font-size: 0.9rem; line-height: 1.7; margin-bottom: 1rem; }
+        .read-more { color: var(--primary); text-decoration: none; font-weight: 600; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 0.3rem; }
+        .read-more:hover { color: var(--accent); }
+        .read-more::after { content: '→'; }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 2rem 0; margin-top: 3rem; }
+        footer p { margin: 0.4rem 0; opacity: 0.8; font-size: 0.9rem; }
+        footer a { color: var(--accent); text-decoration: none; }
         @media (max-width: 768px) {
-            header h1 {
-                font-size: 1.8em;
-            }
-            
-            .container {
-                padding: 15px;
-            }
-            
-            .blog-grid {
-                grid-template-columns: 1fr;
-            }
+            .menu-toggle { display: block; }
+            .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; background: linear-gradient(135deg, var(--primary), var(--secondary)); flex-direction: column; padding: 1rem 2rem; gap: 0; }
+            .nav-links.active { display: flex; }
+            .nav-links li { padding: 0.7rem 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
+            .hero h1 { font-size: 2rem; }
         }
     </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="/" class="logo"><span>YG</span> Electrical Equipment</a>
+            <button class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('active')">☰</button>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/products.html">Products</a></li>
+                <li><a href="/cases.html">Cases</a></li>
+                <li><a href="/honors.html">Honors</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Expert Knowledge Hub</h1>
+        <p>Installation Guides, Industry Standards & Technical Insights from Our Engineering Team</p>
+    </section>
+
     <div class="container">
-        <header>
-            <h1>📚 Technical Blog</h1>
-            <p>Expert insights on cable tray, conduit pipe & electrical installation</p>
-        </header>
-        
-        <div class="blog-grid">
-            <!-- Article 1 -->
-            <div class="blog-card">
-                <div class="card-image">
-                    📊
-                </div>
-                <div class="card-content">
-                    <h3><a href="cable-tray-complete-guide.html">Cable Tray Complete Guide (2026)</a></h3>
-                    <div class="card-meta">
-                        <span>📅 Jan 2026</span>
-                        <span>⏱️ 15 min</span>
+        <section class="section">
+            <h2>Latest Articles</h2>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-visual blue">📊</div>
+                    <div class="blog-body">
+                        <div class="meta">📅 January 2026 · ⏱️ 15 min</div>
+                        <h3><a href="cable-tray-complete-guide.html">Cable Tray Complete Guide 2026: Types, Installation & Price</a></h3>
+                        <p>Everything you need to know about cable tray systems: perforated, ladder, wire mesh, solid bottom — with detailed specifications, installation steps, and 2026 pricing.</p>
+                        <a href="cable-tray-complete-guide.html" class="read-more">Read article</a>
                     </div>
-                    <p class="card-excerpt">
-                        Complete guide to cable tray systems: types, materials, installation steps, and price list. Learn everything about perforated, ladder, wire mesh, and solid bottom cable trays.
-                    </p>
-                    <a href="cable-tray-complete-guide.html" class="read-more">Read More →</a>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-visual teal">🔌</div>
+                    <div class="blog-body">
+                        <div class="meta">📅 January 2026 · ⏱️ 12 min</div>
+                        <h3><a href="jdg-conduit-pipe-selection-guide.html">JDG Conduit Pipe Selection Guide 2026</a></h3>
+                        <p>Complete guide to JDG conduit types, specifications, and installation. Learn how to choose the right size, material, and accessories for your project.</p>
+                        <a href="jdg-conduit-pipe-selection-guide.html" class="read-more">Read article</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-visual purple">⚡</div>
+                    <div class="blog-body">
+                        <div class="meta">📅 January 2026 · ⏱️ 10 min</div>
+                        <h3><a href="cable-tray-vs-conduit-which-to-choose.html">Cable Tray vs Conduit: Which to Choose?</a></h3>
+                        <p>Side-by-side comparison of cable tray and conduit pipe systems. Cost, capacity, ease of installation, and application scenarios — with a decision flowchart.</p>
+                        <a href="cable-tray-vs-conduit-which-to-choose.html" class="read-more">Read article</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-visual orange">🏭</div>
+                    <div class="blog-body">
+                        <div class="meta">📅 November 2025 · ⏱️ 10 min</div>
+                        <h3><a href="safety-standards-cable-tray.html">Safety Standards for Cable Tray Manufacturers</a></h3>
+                        <p>Comprehensive overview of cable tray safety standards: material standards, structural requirements, installation compliance, fire ratings, and certification testing.</p>
+                        <a href="safety-standards-cable-tray.html" class="read-more">Read article</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-visual green">✅</div>
+                    <div class="blog-body">
+                        <div class="meta">📅 October 2025 · ⏱️ 12 min</div>
+                        <h3><a href="quality-assurance-cable-tray.html">How Cable Tray Manufacturers Ensure Product Quality</a></h3>
+                        <p>From raw material inspection to final testing — a complete guide to the quality assurance process that reputable cable tray manufacturers follow.</p>
+                        <a href="quality-assurance-cable-tray.html" class="read-more">Read article</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-visual blue">🔧</div>
+                    <div class="blog-body">
+                        <div class="meta">📅 September 2025 · ⏱️ 8 min</div>
+                        <h3><a href="installation-problems-cable-tray.html">Common Installation Problems & Solutions</a></h3>
+                        <p>The most frequently encountered issues during cable tray installation — and practical solutions from experienced engineers to avoid costly mistakes.</p>
+                        <a href="installation-problems-cable-tray.html" class="read-more">Read article</a>
+                    </div>
                 </div>
             </div>
-            
-            <!-- Article 2 -->
-            <div class="blog-card">
-                <div class="card-image" style="background: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%);">
-                    🔌
-                </div>
-                <div class="card-content">
-                    <h3><a href="jdg-conduit-pipe-selection-guide.html">JDG Conduit Pipe Selection Guide (2026)</a></h3>
-                    <div class="card-meta">
-                        <span>📅 Jan 2026</span>
-                        <span>⏱️ 12 min</span>
-                    </div>
-                    <p class="card-excerpt">
-                        Complete JDG conduit pipe guide: types, specifications, installation steps, and price list. Galvanized steel conduit manufacturer direct supply.
-                    </p>
-                    <a href="jdg-conduit-pipe-selection-guide.html" class="read-more">Read More →</a>
-                </div>
-            </div>
-            
-            <!-- Article 3 -->
-            <div class="blog-card">
-                <div class="card-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-                    ⚡
-                </div>
-                <div class="card-content">
-                    <h3><a href="cable-tray-vs-conduit-which-to-choose.html">Cable Tray vs Conduit: Which to Choose?</a></h3>
-                    <div class="card-meta">
-                        <span>📅 Jan 2026</span>
-                        <span>⏱️ 10 min</span>
-                    </div>
-                    <p class="card-excerpt">
-                        Complete comparison guide: cable tray vs conduit pipe. Learn when to use cable tray, when to use conduit, and how to save 40-60% on installation cost.
-                    </p>
-                    <a href="cable-tray-vs-conduit-which-to-choose.html" class="read-more">Read More →</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="cta-box">
-            <h3>🎁 Need Professional Advice?</h3>
-            <p>✅ Technical consultation | ✅ Custom solution design | ✅ Free samples</p>
-            <a href="../index.html#contact" class="cta-button">Get Free Quote →</a>
-        </div>
-        
-        <footer>
-            <p>© 2026 Jiangsu Yanggang Electrical Equipment Co., Ltd. All rights reserved.</p>
-            <p>🔙 <a href="../index.html">Back to Homepage</a></p>
-        </footer>
+        </section>
     </div>
+
+    <footer>
+        <p>© 2026 Jiangsu Yanggang Electrical Equipment Co., Ltd. All rights reserved.</p>
+        <p><a href="http://www.cnygjt.com">www.cnygjt.com</a> · <a href="https://ygdqjt.github.io">ygdqjt.github.io</a></p>
+    </footer>
 </body>
 </html>
